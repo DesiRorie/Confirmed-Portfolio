@@ -96,6 +96,11 @@ video {
   vertical-align: baseline;
 }
 
+article a img {
+  height: 218px;
+  width: 350px;
+}
+
 article,
 aside,
 details,
