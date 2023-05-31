@@ -4645,7 +4645,9 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
-
+a#navPanelToggle {
+  display: none !important;
+}
 #navPanelToggle:before {
   content: "\f0c9";
   margin-right: 0.5rem;
